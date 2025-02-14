@@ -40,6 +40,8 @@ public class App {
             System.out.println("Not divisible by 3 or 5.");
         } if (number<0 || number>100){
             System.out.println("Wrong number!");
+        } else if (number==2 || number==3 || number==5 || number==7){
+            System.out.println("Prime.");
         } else if (number%2==0 || number%3==0 || number%5==0 || number%7==0){
             System.out.println("Not prime.");
         } else if (!(number%2==0 && number%3==0 && number%5==0 && number%7==0)){
